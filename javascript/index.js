@@ -74,7 +74,7 @@ function setSplitBtn() {
   const currentTime = document.createElement(`li`);
   currentTime.innerHTML = chronometer.split();
   splitsElement.appendChild(currentTime)
-  console.log(chronometer.getMiliseconds())
+  // console.log(chronometer.getMiliseconds())
 }
 
 function setStartBtn() {
